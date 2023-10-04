@@ -1,0 +1,33 @@
+body {
+    color: blue;
+    background-color: aquamarine;
+
+}
+.container {
+
+    float: right;
+    margin-top: 1vh;
+    margin-right: 6vw;
+    box-sizing: content-box;
+    display: grid;
+    height: 49vw;
+    width: 49vw;
+    border: 1px rgb(0 0 0) solid;
+    background-color: white;
+} 
+
+
+
+.cell {
+    height: auto;
+    width: auto;
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    /* border-radius: 0.1rem;  */
+    margin: 0px; 
+}
+
+.cell.hover {
+    background-color: rgb(0, 0, 0);
+
+}
+
